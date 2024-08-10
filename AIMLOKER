@@ -1,0 +1,12 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("beans", "DarkTheme")
+
+local Tab = Window:NewTab("aimlockZ?")
+
+local Section = Tab:NewSection("aimlock")
+
+Section:NewButton("aimlovk", "aimlock no shit", function()
+    local Aimbot = loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Aimbot-V3/main/src/Aimbot.lua"))()
+Aimbot.Load()
+end)
